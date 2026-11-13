@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madison's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Home | Madison's Portfolio</title>
 </head>
 <body>
     <header>
         <h1>Madison's Portfolio</h1>
-        <nav aria-label="Main Navigation">
+        <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="work.html">Work</a></li>   
                 <li><a href="resume.html">Resume</a></li> 
                 <li><a href="contact.html">Contact</a></li>
@@ -20,8 +20,15 @@
     </header>
 
     <main>
-        <h2>Welcome to Madison's Portfolio</h2>
-        <p>This is a simple portfolio website.</p>
+        <section class="profile-card">
+            <img src="me.jpeg" alt="Portrait of Madison Flandi" class="profile-pic">
+            <div class="profile-bio">
+                <h2>Welcome to Madison's Portfolio</h2>
+                <p>Hi, I'm <strong>Madison Flandi</strong>—a Graphic Information Technology student at Arizona State University specializing in web development, user experience (UX) design, and print production.</p>
+                <p>Explore my recent projects or check out my resume to learn more about my background and skills.</p>
+                <a href="work.html"><button type="button">View My Work</button></a>
+            </div>
+        </section>
     </main>
 
     <footer>
